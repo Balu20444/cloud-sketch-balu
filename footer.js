@@ -18,17 +18,17 @@ document.write('\
 				<h2>Get in touch for any clarifications or suggestions!</h2>\
 				<ul class="icons">\
 \
-					<li><a href="https://www.linkedin.com/in/dasika-madhu-nimeshika/" target="_blank" class="label"><span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span></a></li>\
-					<li><a href="https://twitter.com/xxMadBluexx" target="_blank" class="label"><span class="iconify" data-icon="logos:twitter" data-inline="false"></span></a></li>\
-					<li><a href="https://github.com/DasikaMadhu" target="_blank" class="label"><span class="iconify" data-icon="icon-park:github-one" data-inline="false"></span></a></li>\
-					<li><a href="mailto:dasikamadhu@gmail.com" target="_blank" class="label"><span class="iconify" data-icon="icon-park:send-email" data-inline="false"></span></a></li>\
-					<li><a href="https://madhue.medium.com" target="_blank" class="label"><span class="iconify" data-icon="cib:medium-m" data-inline="false"></span></a></li>\
-					<li><a href="https://madhue-portfolio.com" target="_blank" class="label"><span class="iconify" data-icon="gg:website" data-inline="false"></span></a></li>\
+					<li><a href="https://www.linkedin.com/in/balamuralikrishna-dommeti-4b266771/" target="_blank" class="label"><span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span></a></li>\
+					<li><a href="https://twitter.com/Balamuralikria2" target="_blank" class="label"><span class="iconify" data-icon="logos:twitter" data-inline="false"></span></a></li>\
+					<li><a href="https://github.com/balu20444" target="_blank" class="label"><span class="iconify" data-icon="icon-park:github-one" data-inline="false"></span></a></li>\
+					<li><a href="mailto:balamuralikrishna.dommeti@gmail.com" target="_blank" class="label"><span class="iconify" data-icon="icon-park:send-email" data-inline="false"></span></a></li>\
+					<li><a href="https://medium.com/@muralikrishna0612" target="_blank" class="label"><span class="iconify" data-icon="cib:medium-m" data-inline="false"></span></a></li>\
+					<li><a href="http://baludommeti.renderforestsites.com" target="_blank" class="label"><span class="iconify" data-icon="gg:website" data-inline="false"></span></a></li>\
 				</ul>\
 				\
 			</section>\
 			<ul class="copyright">\
-				<li>Content &copy; Dasika Madhu Nimeshika. All rights reserved</li>\
+				<li>Content &copy; Balamuralikrishna Dommeti. All rights reserved</li>\
 			</ul>\
 		</div>\
 	</footer>\
