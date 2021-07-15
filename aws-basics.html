@@ -1,0 +1,235 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>ABC's of AWS</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="AWS from A-Z Sketch Notes" />
+
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Back To Top -->
+		<a href="#" id="scroll">
+
+			<!-- Header + Menu -->
+			<script src="header.js"></script>
+
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+					<h1>ABC's of AWS</h1>
+
+					<h2 class="h2"> What is Cloud </h2>
+
+					<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Cloud</strong></p>
+					<ul>
+						<li>Cloud is a term used to describe globally available storage and computing resources.</li>
+						<li>Essentially, it provides a remote and virtualized infrastructure.</li>
+					</ul>
+
+					<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Cloud Computing</strong></p>
+					<ul>
+						<li>In general, cloud computing is a methodology that enables highly available and quickly scalabe resources.</li>
+						<li>The Gartner definition
+							<blockquote>"Cloud computing is a style of computing in which scalable and elastic IT-enabled capabilities are delivered as a service using internet technologies."</blockquote></li>
+							<li>The National Institute of Standards and Technology (NIST) definition
+								<blockquote>"Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction."</blockquote>
+							</li>
+						</ul>
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Cloud Participants</strong></p>
+						<ul>
+							<li>Cloud Providers - Provides access to cloud infrastructure and resources via Service Level Agreements (SLAs).
+							</li>
+							<li>Cloud Consumer - Who access the cloud resources to develop and deploy applications.
+							</li>
+							<li>End User - Who uses the application deployed in the cloud. Does not have any knowledge about the application.
+							</li>
+						</ul>
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>On-Premise v/s Cloud</strong></p>
+						<table class="table-wrapper">
+							<tr>
+								<th>
+									On-Premise
+								</th>
+								<th>
+									Cloud
+								</th>
+							</tr>
+							<tr>
+								<td>
+
+									Enterprise resources such as storage, compute and more are physically available within the organization boundaries.
+								</td>
+								<td>
+									Enterprise resources are provided in a cloud environment.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Enterprise resources such as storage, compute and more are physically available within the organization boundaries.
+								</td>
+								<td>
+									They can be virtually accessed from anywhere.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Setting up and maintaining on-premise infrastructure is costly.
+								</td>
+								<td>
+									The cloud provider is resonsible for the hardware infrastructure setup and maintenance.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Implementating security in appilcations being deployed is difficult.
+								</td>
+								<td>
+									The cloud provider provides additional security configurations for the applications being deployed.
+								</td>
+							</tr>
+						</table>
+
+						<h2 class="h2"> Cloud Architecture
+							<br><sub>Click to magnify images</sub> </h2>
+						
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Cloud Delivery Models</strong></p>
+						<ul>
+						<li>Cloud Computing provides different models and strategies to meet different needs.</li>
+						<li>The purpose of grouping the various cloud services into models is to make it more accessible for different use cases.</li>			
+						</ul>
+						<img src="images/AWS-Basics/AWS-Service-Models.png" onclick="openModal();currentSlide(1)" class="sketchnote">
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Cloud Deployment Models</strong></p>
+						<img src="images/AWS-Basics/AWS-Deployment-Models.png" onclick="openModal();currentSlide(2)" class="sketchnote">
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Cloud Access Management</strong></p>
+						<img src="images/AWS-Basics/AWS-Access-Mgmt.png" onclick="openModal();currentSlide(3)" class="sketchnote">
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Shared Responsibility Model</strong></p>
+						<img src="images/AWS-Basics/AWS-Share-Responsibility.png" onclick="openModal();currentSlide(4)" class="sketchnote">
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Design Resilient Architecture</strong></p>
+						<ul>
+							<li>'Everything fails all the time'.</li>
+							<li>Keep in mind that system failure is inevitable.</li>
+							<li>Architecture an application with high availability, fault tolerance and a low RPO and RTO to minimize downtime.</li>
+						</ul>
+						<img src="images/AWS-Basics/AWS-DRA.png" onclick="openModal();currentSlide(5)" class="sketchnote">
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Scaling</strong></p>
+						<img src="images/AWS-Basics/AWS-Scaling.png" onclick="openModal();currentSlide(6)" class="sketchnote" >
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Global Infrastructure</strong></p>
+						<img src="images/AWS-Basics/AWS-Global-Infra.png" onclick="openModal();currentSlide(7)" class="sketchnote">
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Well-Architected</strong></p>
+						<img src="images/AWS-Basics/AWS-Well-Architected.png" onclick="openModal();currentSlide(8)" class="sketchnote">
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Billing and Cost Management</strong></p>
+						<img src="images/AWS-Basics/AWS-Billing.png" onclick="openModal();currentSlide(9)" class="sketchnote">
+						<img src="images/AWS-Basics/AWS-Bill-extra.png" onclick="openModal();currentSlide(10)" class="sketchnote">
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Support Plans</strong></p>
+						<img src="images/AWS-Basics/AWS-Support-Plans.png" onclick="openModal();currentSlide(11)" class="sketchnote">
+
+						<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Organizations</strong></p>
+						<img src="images/AWS-Basics/AWS-Org.png" onclick="openModal();currentSlide(12)" class="sketchnote">
+
+						<div id="myModal" class="modal" class="hidden">
+							<span class="close cursor" onclick="closeModal()"><span class="iconify" data-icon="bi:cloud-slash" data-inline="false"></span></span>
+							<div class="modal-content">
+
+								<!-- 1 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Service-Models.png">
+								</div>
+
+								<!-- 2 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Deployment-Models.png">
+								</div>
+
+								<!-- 3 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Access-Mgmt.png">
+								</div>
+
+								<!-- 4 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Share-Responsibility.png">
+								</div>
+
+								<!-- 5 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-DRA.png">
+								</div>
+
+								<!-- 6 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Scaling.png">
+								</div>
+
+								<!-- 7 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Global-Infra.png">
+								</div>
+
+								<!-- 8 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Well-Architected.png">
+								</div>
+
+								<!-- 9 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Billing.png">
+								</div>
+
+								<!-- 10 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Bill-extra.png">
+								</div>
+
+								<!-- 11 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Support-Plans.png">
+								</div>
+
+								<!-- 12 -->
+								<div class="mySlides">
+									<img src="images/AWS-Basics/AWS-Org.png">
+								</div>
+
+							</div>
+						</div>
+
+						<script>
+
+						</script>
+
+					</div>
+				</div>
+
+				<!-- Footer -->
+				<script src="footer.js"></script>
+			</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+		</body>
+		</html>
