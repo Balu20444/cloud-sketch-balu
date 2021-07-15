@@ -20,7 +20,7 @@ document.write('\
 \
 					<a href="index.html" class="logo">\
 						<span class="iconify" data-icon="logos:aws" data-inline="false" class="label"></span>\
-						<span class="title">Madhu\'s Sketch Notes</span>\
+						<span class="title">Balu\'s Cloud Sketch Notes</span>\
 					</a>\
 \
 					<!-- Nav -->\
